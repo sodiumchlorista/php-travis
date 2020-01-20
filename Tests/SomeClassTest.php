@@ -1,6 +1,6 @@
 <?php
 include_once '/vendor/phpunit/phpunit/tests/unit/Framework/TestCaseTest.php';
-class SomeClassTest extends PHPUnit_Framework_TestCase
+class SomeClassTest extends TestCase
 {
     /**
      * @var PDO
