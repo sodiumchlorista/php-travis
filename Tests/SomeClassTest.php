@@ -1,5 +1,5 @@
 <?php
-
+require_once 'PHPUnit/Autoload.php';
 class SomeClassTest extends PHPUnit_Framework_TestCase
 {
     /**
