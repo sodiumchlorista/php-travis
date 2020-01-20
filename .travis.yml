@@ -1,5 +1,7 @@
 language: php
+sudo: required
 dist: trusty
+group: edge
 env:
   - DB=mysql
 before_script:
