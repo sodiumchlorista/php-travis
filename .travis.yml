@@ -1,4 +1,5 @@
 language: php
+dist: trusty
 env:
   - DB=mysql
 before_script:
