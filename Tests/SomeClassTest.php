@@ -1,5 +1,5 @@
 <?php
-include_once 'vendor/phpunit/phpunit/src/Framework/TestCase.php';
+use PHPUnit\Framework\TestCase;
 class SomeClassTest extends TestCase
 {
     /**
