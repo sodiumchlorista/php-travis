@@ -1,0 +1,8 @@
+language: php
+php:
+  - 7.4
+env:
+  - DB=mysql
+before_script:
+  - mysql -e "create database IF NOT EXISTS hello_world_test;" -uroot;
+script: phpunit --configuration phpunit_mysql.xml --coverage-text
